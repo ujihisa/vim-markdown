@@ -22,11 +22,12 @@ If you would like to submit patches to mkd.vim, development is hosted on [Github
 **Updated 4/29/2008**: Now at version 8, which really fixes matching bold and underline characters inside of words.
 
 **Updated 3/1/2008**: Now at version 7, which fixes several bugs, most thanks to David Wolever:
+
 - Don’t match bold and underline characters inside of words.
 - Don’t match code blocks that aren’t preceded by a blank line.
 - Fix double back-tick code blocks without a back-tick inside of them.
 - Fix # headings being matched anywhere in the line.
-- Match <pre> and <code> tags.
+- Match _pre_ and _code_ tags.
 
 **Updated 9/1/2006**: Now at version 6, which enables spellchecking in Vim 7 and adds highlighting for reference-style links thanks to Will Norris.
 
