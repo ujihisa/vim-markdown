@@ -1,0 +1,39 @@
+#Markdown Vim Mode#
+This is a [Vim](http://www.vim.org/) syntax file for the [Markdown](http://daringfireball.net/projects/markdown/) text-to-HTML conversion tool. Get the file [here](http://plasticboy.com/dox/mkd.vim) and place it in your `$VIM/syntax` directory. To get it to load automatically you’ll also want to create `filetype.vim` file in your `$VIM` folder like this:
+
+    " markdown filetype file
+
+    if exists("did\_load\_filetypes")
+		finish
+	endif
+	augroup markdown
+		au! BufRead,BufNewFile *.mkd   setfiletype mkd
+	augroup END
+
+Finally, to get some nice Markdown formatting behavior, add these lines to your .vimrc:
+	augroup mkd
+	autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:>
+	augroup END
+
+If you would like to submit patches to mkd.vim, development is hosted on [Github](http://github.com/plasticboy/vim-markdown/).
+
+**Updated 5/18/2009**: Numerous link and emphasis fixes.
+
+**Updated 4/29/2008**: Now at version 8, which really fixes matching bold and underline characters inside of words.
+
+**Updated 3/1/2008**: Now at version 7, which fixes several bugs, most thanks to David Wolever:
+	Don’t match bold and underline characters inside of words.
+	Don’t match code blocks that aren’t preceded by a blank line.
+	Fix double back-tick code blocks without a back-tick inside of them.
+	Fix # headings being matched anywhere in the line.
+	Match <pre> and <code> tags.
+
+**Updated 9/1/2006**: Now at version 6, which enables spellchecking in Vim 7 and adds highlighting for reference-style links thanks to Will Norris.
+
+**Updated 12/1/2005**: Now at version 5, which fixes numbered headings being highlighted as list items and horizontal rules being highlighted as headings. Thanks to Stephen Haberman.
+
+**Updated 8/24/2005**: Now at version 4, which fixes stuff in parentheses being highlighted when not part of a link structure. Thanks to Richard Newman.
+
+**Updated 5/4/2005**: Now at version 3, which fixes a problem with indented lists being highlighted as code blocks. Thanks Swaroop.
+
+**Updated 3/21/2005**: Now at version 2, which includes better matching for bold and italics.
