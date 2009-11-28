@@ -1,7 +1,6 @@
 " Vim syntax file
 " Language:	Markdown
 " Maintainer:	Ben Williams <benw@plasticboy.com>
-"               Rémi Prévost <remi@exomel.com> (keyboard shortcuts)
 " URL:		http://plasticboy.com/markdown-vim-mode/
 " Version:	9
 " Last Change:  2009 November 28 
