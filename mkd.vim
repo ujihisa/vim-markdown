@@ -124,7 +124,7 @@ inoremap <buffer> ;ah []()<Esc>F(a
 vnoremap <buffer> ;ul <Esc>:'<,'>s/^\(\s*\)\(.*\)$/\1* \2/<CR>`<l<Esc>:silent noh<Bar>echo<CR> 
 
 "codespans
-nnoremap <buffer> ;cd O``<Esc>F`li
+nnoremap <buffer> ;cd i``<Esc>F`li
 vnoremap <buffer> ;cd <Esc>`>a`<Esc>`<i`<Esc>l
 inoremap <buffer> ;cd ``<Esc>F`li
 
@@ -134,23 +134,23 @@ vnoremap <buffer> ;hr <Esc>`<i- - -<CR><Esc>
 inoremap <buffer> ;hr - - -<CR><CR>
 
 "headers
-nnoremap <buffer> ;h1 O# <Esc>F<i
+nnoremap <buffer> ;h1 i# <Esc>a
 vnoremap <buffer> ;h1 <Esc>`>a<Esc>`<i# <Esc>l
-inoremap <buffer> ;h1 # <Esc>F<i
-nnoremap <buffer> ;h2 O## <Esc>F<i
+inoremap <buffer> ;h1 # <Esc>a
+nnoremap <buffer> ;h2 i## <Esc>a
 vnoremap <buffer> ;h2 <Esc>`>a<Esc>`<i## <Esc>l
-inoremap <buffer> ;h2 ## <Esc>F<i
-nnoremap <buffer> ;h3 O### <Esc>F<i
+inoremap <buffer> ;h2 ## <Esc>a
+nnoremap <buffer> ;h3 i### <Esc>a
 vnoremap <buffer> ;h3 <Esc>`>a<Esc>`<i### <Esc>l
-inoremap <buffer> ;h3 ### <Esc>F<i
-nnoremap <buffer> ;h4 O#### <Esc>F<i
+inoremap <buffer> ;h3 ### <Esc>a
+nnoremap <buffer> ;h4 i#### <Esc>a
 vnoremap <buffer> ;h4 <Esc>`>a<Esc>`<i#### <Esc>l
-inoremap <buffer> ;h4 #### <Esc>F<i
-nnoremap <buffer> ;h5 O##### <Esc>F<i
+inoremap <buffer> ;h4 #### <Esc>a
+nnoremap <buffer> ;h5 i##### <Esc>a
 vnoremap <buffer> ;h5 <Esc>`>a<Esc>`<i##### <Esc>l
-inoremap <buffer> ;h5 ##### <Esc>F<i
-nnoremap <buffer> ;h6 O###### <Esc>F<i
+inoremap <buffer> ;h5 ##### <Esc>a
+nnoremap <buffer> ;h6 i###### <Esc>a
 vnoremap <buffer> ;h6 <Esc>`>a<Esc>`<i###### <Esc>l
-inoremap <buffer> ;h6 ###### <Esc>F<i
+inoremap <buffer> ;h6 ###### <Esc>a
 
 " vim: ts=8
