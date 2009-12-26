@@ -1,13 +1,10 @@
-Vim-Markdown
-============
+Vim - Markdown
+==============
 
 Description
 -----------
 
 [Markdown][] syntax support for [Vim][] Editor.
-
-[Vim-Markdown][script homepage] have a support for snippets. Therefore, it's
-recommended that you use [SnipMate][] plugin.
 
 Install
 -------
@@ -21,15 +18,11 @@ following command:
 Done! All files will be extracted in your [Vim][] home directory.
 If you checkout from repository, install using the following commands:
 
-    bash do install
-
-Or
-
-    ./do install
+    bash pool install
 
 This instruction will be create a Vimball file and install.
 
-Updates your `.vimrc` file with:
+Updates your `.vimr` file with:
 
     autocmd BufNewFile,BufRead *.{md,mld,mark,markdown} set filetype=markdown
 
@@ -53,9 +46,8 @@ Visit the [script homepage][] for more information.
 Copyright
 ---------
 
-Copyright (c) 2009 Hallison Batista <email@hallisonbatista.com>
-
 Copyright (c) 2009 Ben Williams <benw@plasticboy.com>
+Copyright (c) 2009 Hallison Batista <email@hallisonbatista.com>
 
 [markdown]: http://daringfireball.net/projects/markdown/
   "Markdown syntax project"
@@ -65,8 +57,5 @@ Copyright (c) 2009 Ben Williams <benw@plasticboy.com>
   "Vim Editor"
 [issue tracker]: http://github.com/hallison/vim-markdown/issues
   "Vim-Markdown Github Issues"
-[ben williams]: http://plasticboy.com/markdown-vim-mode/
-  "Markdown Vim Mode"
-[snipmate]: http://www.vim.org/scripts/script.php?script_id=2540
-  "SnipMate plugin"
+[ben williams]: http://plasticboy.com/markdown-vim-mode/ "Markdown Vim Mode"
 
