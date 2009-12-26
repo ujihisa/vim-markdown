@@ -10,19 +10,16 @@ Install
 -------
 
 Download the [gzipball][script homepage] from Vim [script homepage][] and
-open the package using [Vim][] and use the command `:source %`. Or run the
-following command:
+open the package using [Vim][] and use the command `:source %`. Done! All
+files will be extracted in your [Vim][] home directory.
 
-    vim markdown-<version>.vba.gz +":source %"
-
-Done! All files will be extracted in your [Vim][] home directory.
 If you checkout from repository, install using the following commands:
 
     bash pool install
 
 This instruction will be create a Vimball file and install.
 
-Updates your `.vimr` file with:
+Updates your <tt>.vimrc<tt> file with:
 
     autocmd BufNewFile,BufRead *.{md,mld,mark,markdown} set filetype=markdown
 
@@ -31,7 +28,7 @@ This will make the syntax works.
 Information
 -----------
 
-The original [Markdown][] [Vim][] syntax was created by [Ben Williams][].
+The original [Mardown][] [Vim][] syntax was created by [Ben Williams][].
 
 You maybe contributes to source. So, send a feedback in [issue tracker][].
 
@@ -47,7 +44,7 @@ Copyright
 ---------
 
 Copyright (c) 2009 Ben Williams <benw@plasticboy.com>
-Copyright (c) 2009 Hallison Batista <email@hallisonbatista.com>
+                   Hallison Batista <email@hallisonbatista.com>
 
 [markdown]: http://daringfireball.net/projects/markdown/
   "Markdown syntax project"
