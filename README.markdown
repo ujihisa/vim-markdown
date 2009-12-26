@@ -1,5 +1,5 @@
 #Markdown Vim Mode#
-This is a [Vim](http://www.vim.org/) syntax file for the [Markdown](http://daringfireball.net/projects/markdown/) text-to-HTML conversion tool. Get the file [here](http://plasticboy.com/dox/mkd.vim) and place it in your `$VIM/syntax` directory. To get it to load automatically you’ll also want to create `filetype.vim` file in your `$VIM` folder like this:
+This is a [Vim](http://www.vim.org/) syntax file for the [Markdown](http://daringfireball.net/projects/markdown/) text-to-HTML conversion tool. Get the file [here](http://plasticboy.com/dox/mkd.vim) and place it in your `$VIM/syntax` directory. To get it to load automatically you'll also want to create `filetype.vim` file in your `$VIM` folder like this:
 
     " markdown filetype file
 
@@ -23,8 +23,8 @@ If you would like to submit patches to mkd.vim, development is hosted on [Github
 
 **Updated 3/1/2008**: Now at version 7, which fixes several bugs, most thanks to David Wolever:
 
-- Don’t match bold and underline characters inside of words.
-- Don’t match code blocks that aren’t preceded by a blank line.
+- Don't match bold and underline characters inside of words.
+- Don't match code blocks that aren't preceded by a blank line.
 - Fix double back-tick code blocks without a back-tick inside of them.
 - Fix # headings being matched anywhere in the line.
 - Match _pre_ and _code_ tags.
