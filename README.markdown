@@ -3,6 +3,8 @@ This is a [Vim](http://www.vim.org/) syntax file for the [Markdown](http://darin
 
 If you would like to submit patches to `vim-markdown`, development is hosted on [Github](http://github.com/ujihisa/vim-markdown/).
 
+**Updated 12/26/2009**: Fixed bugs
+
 **Updated 5/18/2009**: Numerous link and emphasis fixes.
 
 **Updated 4/29/2008**: Now at version 8, which really fixes matching bold and underline characters inside of words.
