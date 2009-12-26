@@ -4,16 +4,16 @@ This is a [Vim](http://www.vim.org/) syntax file for the [Markdown](http://darin
     " markdown filetype file
 
     if exists("did\_load\_filetypes")
-		finish
-	endif
-	augroup markdown
-		au! BufRead,BufNewFile *.mkd   setfiletype mkd
-	augroup END
+        finish
+    endif
+    augroup markdown
+        au! BufRead,BufNewFile *.mkd   setfiletype mkd
+    augroup END
 
 Finally, to get some nice Markdown formatting behavior, add these lines to your .vimrc:
-	augroup mkd
-	autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:>
-	augroup END
+    augroup mkd
+    autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:>
+    augroup END
 
 If you would like to submit patches to mkd.vim, development is hosted on [Github](http://github.com/plasticboy/vim-markdown/).
 
