@@ -1,21 +1,7 @@
 #Markdown Vim Mode#
-This is a [Vim](http://www.vim.org/) syntax file for the [Markdown](http://daringfireball.net/projects/markdown/) text-to-HTML conversion tool. Get the file [here](http://plasticboy.com/dox/mkd.vim) and place it in your `$VIM/syntax` directory. To get it to load automatically you'll also want to create `filetype.vim` file in your `$VIM` folder like this:
+This is a [Vim](http://www.vim.org/) syntax file for the [Markdown](http://daringfireball.net/projects/markdown/) text-to-HTML conversion tool.
 
-    " markdown filetype file
-
-    if exists("did\_load\_filetypes")
-        finish
-    endif
-    augroup markdown
-        au! BufRead,BufNewFile *.mkd   setfiletype mkd
-    augroup END
-
-Finally, to get some nice Markdown formatting behavior, add these lines to your .vimrc:
-    augroup mkd
-    autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:>
-    augroup END
-
-If you would like to submit patches to mkd.vim, development is hosted on [Github](http://github.com/plasticboy/vim-markdown/).
+If you would like to submit patches to `vim-markdown`, development is hosted on [Github](http://github.com/ujihisa/vim-markdown/).
 
 **Updated 5/18/2009**: Numerous link and emphasis fixes.
 
