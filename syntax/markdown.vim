@@ -99,7 +99,7 @@ HtmlHiLink mkdLinkTitle     htmlString
 
 HtmlHiLink mkdDelimiter     Delimiter
 
-let b:current_syntax = "mkd"
+let b:current_syntax = "markdown"
 
 delcommand HtmlHiLink
 
