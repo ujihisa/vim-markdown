@@ -1,13 +1,10 @@
 " Vim syntax file
-" Language:	Markdown
-" Maintainer:	Ben Williams <benw@plasticboy.com>
-" URL:		http://plasticboy.com/markdown-vim-mode/
-" Version:	9
-" Last Change:  2009 November 28 
-" Remark:	Uses HTML syntax file
-" Remark:	I don't do anything with angle brackets (<>) because that would too easily
-"		easily conflict with HTML syntax
-" TODO: 	Handle stuff contained within stuff (e.g. headings within blockquotes)
+" Language:    Markdown
+" Last Change: 2009 December 26
+" Remark:      Uses HTML syntax file
+" Remark:      I don't do anything with angle brackets (<>) because that would too easily
+"              easily conflict with HTML syntax
+" TODO:        Handle stuff contained within stuff (e.g. headings within blockquotes)
 
 
 " Read the HTML syntax to start with
@@ -83,7 +80,7 @@ syn match  htmlH1       /^.\+\n=\+$/ contains=@Spell
 syn match  htmlH2       /^.\+\n-\+$/ contains=@Spell
 
 "highlighting for Markdown groups
-HtmlHiLink mkdString	    String
+HtmlHiLink mkdString        String
 HtmlHiLink mkdCode          String
 HtmlHiLink mkdBlockquote    Comment
 HtmlHiLink mkdLineContinue  Comment
