@@ -1,5 +1,3 @@
-"Keyboard shortcuts (inspired by html.vim by Donald J. Bindner)
-
 "phrase emphasis
 nnoremap <buffer> ;st i****<Esc>F*i
 vnoremap <buffer> ;st <Esc>`>a**<Esc>`<i**<Esc>l
